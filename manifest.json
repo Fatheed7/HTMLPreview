@@ -1,0 +1,21 @@
+{
+    "name": "HTML Preview",
+    "description": "Click to preview an HTML file on Github",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon": "assets/icons/48.png",
+        "default_title": ""
+    },
+    "permissions": [
+        "activeTab",
+        "tabs"
+      ],
+	"background": {
+	  "service_worker": "background.js"
+	},
+	"icons": {
+		"48": "/assets/icons/48.png",
+		"128": "/assets/icons/128.png"
+	}
+}
