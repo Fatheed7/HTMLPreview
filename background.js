@@ -1,6 +1,6 @@
 chrome.browserAction.onClicked.addListener(function (tab) {
     let currentURL = tab.url;
-    let pattern = /^https:\/\/github\.com\/([^\/]+)\/([^\/]+)\/blob\/main\/([^\/]+\.html)$/;
+    let pattern = /^https:\/\/github\.com\/([^\/]+)\/([^\/]+)\/blob\/([^\/]+)\/([^\/]+\.html)$/;
     let match = currentURL.match(pattern);
 
     if (match) {
