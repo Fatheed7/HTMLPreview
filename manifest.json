@@ -1,6 +1,6 @@
 {
-    "name": "Reddit Video Downloader",
-    "description": "Download a video from Reddit",
+    "name": "HTML Preview",
+    "description": "Click to preview an HTML file on Github",
     "version": "1.0",
     "manifest_version": 2,
     "browser_action": {
@@ -9,8 +9,7 @@
     },
     "permissions": [
         "activeTab",
-        "tabs",
-        "<all_urls>"
+        "tabs"
       ],
 	"background": {
 	  "service_worker": "background.js"
